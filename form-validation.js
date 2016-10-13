@@ -58,5 +58,6 @@ else if (passEntered .length < 6 ) {
     //Turn the password items red
     document.getElementById("passwordGroup").classList.add("has-error");}
   else {document.getElementById("passwordGroup").classList.add("has-success");
-  document.getElementById("passwordGroup").classList.remove("has-error");}
+  document.getElementById("passwordGroup").classList.remove("has-error");
+  document.getElementById("passwordError").innerHTML=" "}
 }
